@@ -1,0 +1,132 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452) ;
+}
+ *{
+    margin: 0;
+    padding:0px;
+ }
+.container{
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    width:400px;
+    height:auto;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452) ;
+    
+}
+button{
+    margin: 5px 18px;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+    background-color: #ff0047;
+    border-radius: 50%;
+    background: transparent;
+    color:white;
+    border: none;
+
+}
+img{
+    width:22px;
+    
+}
+#number{
+    font-size: 30px;
+    color: rgb(244, 232, 232);
+}
+input{
+    width:394px;
+    height: 80px;
+    background: transparent;
+    border: none;
+     outline: none;
+    text-align: right;
+      
+}
+#btn{
+    font-size: 30px;
+    box-shadow: -8px -8px 17px rgb(255,255,255,0.1);
+}
+#bt{
+    background-color: #fb7c14;
+    font-size: 30px;
+}
+#b{
+    font-size: 30px;
+    box-shadow: -8px -8px 17px rgb(255,255,255,0.1);
+    color: #6dee0a;
+}
+#del{
+    font-size: 25px;
+    box-shadow: -8px -8px 17px rgb(255,255,255,0.1);
+    color: #6dee0a;
+}
+@media (max-width:480px){
+    .container{
+    width:100%;
+    height: auto;
+    }
+    #num1{
+        width:100%;
+        height: auto;
+    }
+    #btn{
+        font-size: 25px;
+    }
+    #b{
+        font-size: 25px; 
+    }
+    #bt{
+        font-size: 25px;
+    }
+    input{
+        width:100%;
+        height: 60px;  
+    }
+    #number{
+        font-size: 25px;
+    }
+    button{
+        margin: 5px 35px;
+        width:42px;
+        height:42px;
+    }
+}
+@media (max-width:380px){
+    .container{
+    width:100%;
+    height: auto;
+    }
+    #num1{
+        width:100%;
+        height: auto;
+    }
+    #btn{
+        font-size: 25px;
+    }
+    #b{
+        font-size: 25px; 
+    }
+    #bt{
+        font-size: 25px;
+    }
+    input{
+        width:100%;
+        height: 60px;  
+    }
+    #number{
+        font-size: 25px;
+    }
+    button{
+        margin: 5px 26px;
+        width:40px;
+        height:40px;
+    }
+}
+ 
